@@ -1921,7 +1921,7 @@ input, select, textarea {
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: clamp(1.5rem, 5vw, 3rem); /* Adjust min, preferred, and max sizes */
    			letter-spacing: 8px;
-			line-height: 1.2;
+			line-height: 1.5;
 			max-width: 100%;
 
 		}
