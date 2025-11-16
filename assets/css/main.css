@@ -1505,8 +1505,11 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
+			/* 
 			width: 100%;
-			margin: 0 0 3.5em 0;
+			margin: 0 0 3.5em 0; */
+			width: 60%;
+			margin: 0 auto;
 		}
 
 		.image.left {
