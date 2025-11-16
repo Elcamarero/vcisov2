@@ -1919,8 +1919,11 @@ input, select, textarea {
 			font-weight: 700;
 			color: #ed786a;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-			font-size: 3em;
+			font-size: clamp(1rem, 5vw, 3rem); /* Adjust min, preferred, and max sizes */
+   			white-space: nowrap; /* Prevent wrapping */
 			letter-spacing: 13px;
+}
+
 		}
 
 			#header h1 a {
